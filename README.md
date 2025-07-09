@@ -14,12 +14,14 @@ It follows the Screenplay pattern to ensure modular, scalable, and readable test
 
 ### Sign Up Feature Summary
 Happy Path:
-- Submit valid form-Account created-Redirect to home page
+- Submit valid form
+- -Account created
+- -Redirect to home page
 ### Validation Rules
-- Password Field-Empty password triggers error alert
-- Phone Field-Only accepts numeric inputs (blocks text)
-- Zip Code Field-Only accepts numeric inputs (blocks text)
-- Username Field-Automatically truncated if exceeding 23 characters
+- Password Field:Empty password triggers error alert
+- Phone Field:Only accepts numeric inputs (blocks text)
+- Zip Code Field:Only accepts numeric inputs (blocks text)
+- Username Field:Automatically truncated if exceeding 23 characters
 
 ### Background Steps: 
 -Start at home page
