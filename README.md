@@ -21,27 +21,16 @@ Happy Path:
 - Zip Code Field-Only accepts numeric inputs (blocks text)
 - Username Field-Automatically truncated if exceeding 23 characters
 
-### Background Steps: Start at home page-Navigate to login page-Fill name/email in signup form-Redirect to sign up page.
+### Background Steps: 
+-Start at home page
+-Navigate to login page
+-Fill name/email in signup form
+-Redirect to sign up page.
 
+### Reports:
 -The reports are made with Allure, this tool improves the way reports are displayed, and the command to use it in the Intellij console is “allure serve reports/allure-results”.
 
 ### Configuration  
 - Browser settings: `src/main/resources/config.properties`  
 - Test data management: `src/test/resources/testdata/`  
 - Allure reporting configuration: `allure.properties`  
-
-
-
-
-
-## Test Scenarios
-
-- Successful and failed login
-- Successful and invalid user registration
-
-## Execution
-
-Run tests with:
-
-```bash
-./gradlew test
